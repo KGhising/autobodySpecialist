@@ -252,10 +252,8 @@ footer .f-logo{
         width: 1.5em;
     } 
 }
-@media screen and (max-width = 400px){
+@media screen and (max-width: 400px){
     .social li a img{
-    float: left;
-    width: 5em;
-    margin: 3px;
+        width: 1em;
     }
 }
