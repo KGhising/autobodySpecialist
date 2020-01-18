@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    margin: 0em;
+    padding: 0em;
+}
+h1, h4, p, a{
+    color: #229397;
+}
+
+/************
+    css for navbar
+************/
+nav{
+    margin-left: 25%;
+}
+nav li a{
+    font-family: Bahnschrift;
+    font-size: 1.2em;
+    margin: auto 1em;
+}
+nav li a:hover{
+    color: #C5C5A7;
+}
+.navbar-toggler{
+    width: 2.5em;
+    height: 2em;
+    background-color: #229397;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 0.1em;
+    background-color: white;
+    margin-bottom: 0.3em;
+}
+/************
+    css for section-carousel
+************/
+.carrouselA{
+    width: 80%;
+    margin: auto;
+}
+.carrouselA img{
+    margin-top: 10%;
+    height: 10em;
+}
+.carrouselA .carousel-inner p{
+    font-size: 2em; 
+    font-family: Bahnschrift; 
+    margin-top: 1em; 
+}
+.carrouselA .btn{
+    color: #229397;
+    background-color: transparent;
+    font-size: 1.5em;
+    border: #229397 solid 2px; 
+    margin-top: 1em;   
+    margin-bottom: 1.5em;  
+}
+.carrouselA .btn:hover{
+    background-color: #229397;
+    color: #C5C5A7;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 2em;
+    width: 2em; 
+    background-color: #229397;
+}
+
+/************
+    css for about tag
+************/
+.about{
+    width: 80%;
+    margin: auto;
+}
+.heading h1{
+    margin-top: 1.5em;
+    color: #F0DED1;
+    font-family: Consolas;
+    background-color: #229397;
+    text-align: center;
+}
+.co-heading p{
+    font-family: Consolas;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.carousel-item p{
+    width: 70%;
+    margin: auto;
+    font-size: 1.5em;
+    color: #229397;
+    text-align: center;
+}
+
+/************
+    css for member tag
+************/
+.member{
+    width: 80%;
+    margin: auto;
+    margin-top: 5em;
+    background-color: #F0DED1;
+}
+.profile-image img {
+   width: 10em; 
+   margin: 5em 5em 1em 5em;
+}
+.member p{
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+/************
+    css for service tag
+************/
+.service h1{
+    background-color: transparent;
+    color: #229397;
+    font-family: Consolas;
+}
+.list-items{
+    text-align: center;
+    margin-top: 2em;
+}
+.list-items .items li{
+    list-style-type: none;
+}
+.list-items .items a{
+    text-decoration: none;
+    font-family: Consolas;
+    font-size: 2em;
+    text-align: left;
+}
+.list-items .items a:hover{
+    color: #F0DED1;
+}
+
+/************
+    css for footer tag
+************/
+footer{
+    background-color: #C5C5A7;    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 4em;
+}
+footer ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+footer p{
+    font-size: 1em;
+    margin-top: 4em;
+    margin-left: 1em;
+}
+footer .f-logo{
+    margin-top: 1em;
+}
+.social{
+    margin-left: 6em;
+    margin-top: 5em;
+}
+.social li a img{
+    float: left;
+    width: 2em;
+}
+
+/********
+        media query
+**********/
+@media screen and (max-width: 1024px){
+    /*****
+        carrousel tag
+    ******/
+    .carrouselA img{
+        height: 5em;
+    }
+    .carrouselA .carousel-inner p{
+        font-size: 1em;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 1em;
+        width: 1em; 
+    }
+    .carrouselA .btn{  
+        font-size: 1em;
+    }
+
+    /*****
+        about tag
+    ******/
+    .heading h1{
+        font-size: 2em;
+    }
+    .co-heading p{
+        font-size: 1.5em; 
+    }
+    .carousel-item p{
+        font-size: 1em;    
+    }
+    
+    /*****
+        memeber tag
+    ******/
+    .profile-image .row{
+        display:table;
+    }
+    .profile-image img {
+        width: 8em;
+        margin: 2em 0em;
+    }
+    .pro-image p{
+        font-size: 0.8em;
+    }
+
+    /*****
+        service tag
+    ******/
+    .service h1{
+        font-size: 1.5em;
+    }
+    .list-items{
+        margin-top: 1em;
+    }
+    .list-items .items a{
+        font-size: 1em;
+    }
+    /*****
+            footer tag
+        ******/
+    footer{
+        margin-top: 2em;
+    }
+    footer p{
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    footer .f-logo{
+        width: 4em;
+    }
+    .social{
+        margin-top: 3em;
+        margin-left: 0em;
+    }
+    .social li a img{
+        width: 1.5em;
+    } 
+}
